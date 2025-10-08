@@ -86,10 +86,9 @@
 
 
 /*Nav*/
-.nav-bar, .nav-bar nav, .nav-bar ul {
+.nav-bar, .nav-bar nav, .nav-bar ul, .nav-bar li {
     width: 100%;
     height: 50px;
-    background-color: aqua;
     line-height: 50px;
     text-align: center;
 }
@@ -101,8 +100,6 @@
 }
 
 .nav-bar ul > li, a {
-    height: 100%;
-    background-color: cornsilk;
     list-style: none;
     justify-self: center;
     width: 200px;
