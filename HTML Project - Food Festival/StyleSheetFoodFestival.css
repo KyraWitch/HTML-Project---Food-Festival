@@ -1,0 +1,106 @@
+/*StyleSheet Food Festival*/
+
+/*Colour vars*/
+:root {
+/*Primary colours*/
+--primary-bg-colour: White;
+--primary-red: #d90540;
+--primary-dark-gray: ##333333;
+--primary-txt-colour: #7e7e7e;
+--primary-green-menu: #97c004;
+--primary-yellow: #f3cc02;
+
+/*Secondary colours*/
+--secondary-text-colour: White;
+--secondary-yellow: #f4a105;
+--secondary-red: #f43002;
+--secondary-green: #799a03;
+--secondary-bg-colour: #eeeeee;
+}
+/*End of Colour vars*/
+
+/*Global*/
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+    /*Txt global*/
+    h2 {
+
+    }
+
+    h3 {
+
+    }
+
+    h4 {
+
+    }
+
+    h5 {    
+
+    }
+
+    h6 {
+
+    }
+
+    p {
+
+    }
+    /*End of Txt Global*/
+
+/*End of Global*/
+
+/*Nav*/
+
+nav {
+    width: 100%;
+    justify-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    width: 50px;
+    height: 15px;
+    color: var(--primary-txt-colour);
+}
+
+li a:hover {
+background-color: var(--primary-green-menu);
+color: var(--secondary-text-colour);
+}
+
+/*End of Nav*/
+
+/*Top div*/
+.top-img {
+    width: 100%;
+    overflow: hidden;
+}
+
+.top-txt-div {
+    position: absolute;
+    justify-self: center;
+}
+
+/*End of Top div*/
+
+/*Mid div*/
+
+/*End of Mid div*/
+
+/*Under div*/
+
+/*End of Under div*/
+
+/*Bottom div*/
+
+/*End of Bottom div*/
+
+/*End div*/
+
+/*End of End div*/

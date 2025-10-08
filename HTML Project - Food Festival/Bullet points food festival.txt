@@ -1,0 +1,80 @@
+root: {
+/*Primary colours*/
+
+--primary-bg-colour: White;
+--primary-red: #d90540;
+--primary-dark-gray: ##333333;
+--primary-txt-colour: #7e7e7e;
+--primary-green-menu: #97c004;
+--primary-yellow: #f3cc02;
+
+/*Secondary colours*/
+
+--secondary-text-colour: White;
+--secondary-yellow: #f4a105;
+--secondary-red: #f43002;
+--secondary-green: #799a03;
+--secondary-bg-colour: #eeeeee;
+}
+
+
+h2 big title text
+h3 normal title text
+h4 sub text
+h5 text titles
+h6 capitalized text
+
+Nav
+4 links ref #
+Display block
+flex
+row
+hover: --primary-green-menu
+
+div top
+Pic: 100% width, x height
+
+text field with an img in the middle top/bottom to center
+justify self center
+
+
+div middle
+
+Title
+
+1 div
+flex 
+row
+wrap
+
+8 divs (child target)
+p
+img
+2 p
+
+
+div under
+
+title
+
+1 div flex row
+2 div flex collumn
+form? or indidvidual divs
+img with text, text with a little margin
+3 p per
+
+div bottom
+
+title
+
+2 h3
+
+2 p
+
+1 btn
+
+div end
+Title
+
+div flex row
+imgs
