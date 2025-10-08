@@ -5,7 +5,7 @@
 /*Primary colours*/
 --primary-bg-colour: White;
 --primary-red: #d90540;
---primary-dark-gray: ##333333;
+--primary-dark-gray: #333333;
 --primary-txt-colour: #7e7e7e;
 --primary-green-menu: #97c004;
 --primary-yellow: #f3cc02;
@@ -26,25 +26,31 @@
     text-decoration: none;
     box-sizing: border-box;
 }
+
+/*Global classes*/
+
+/*End of global classes*/
+
+
     /*Txt global*/
     h2 {
-
+        font-size: 4rem;
     }
 
     h3 {
-
+        font-size: 3rem;
     }
 
     h4 {
-
+        font-size: 2rem;
     }
 
     h5 {    
-
+        font-size: 1 rem;
     }
 
     h6 {
-
+        font-size: 0.5 rem;
     }
 
     p {
@@ -54,19 +60,55 @@
 
 /*End of Global*/
 
-/*Nav*/
-
-nav {
+/*testing*/
+.top, .mid, .udr, .bot, .end {
     width: 100%;
-    justify-items: center;
-    display: flex;
-    flex-direction: row;
+    height: 600px;
+    justify-self: center;
+}
+.top {
+    background-color: var(--primary-bg-colour);
+}
+.mid {
+    background-color: var(--secondary-bg-colour);
+}
+.udr {
+    background-color: var(--primary-bg-colour);
+}
+.bot {
+    background-color: var(--primary-green-menu);
+}
+.end {
+    background-color: var(--primary-dark-gray);
 }
 
-li {
-    width: 50px;
-    height: 15px;
-    color: var(--primary-txt-colour);
+
+
+
+/*Nav*/
+.nav-bar, .nav-bar nav, .nav-bar ul {
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-bar ul > li, a {
+    height: 100%;
+    background-color: cornsilk;
+    list-style: none;
+    justify-self: center;
+    width: 200px;
+    text-decoration: none;
+    height: 100%;
+    display: block;
 }
 
 li a:hover {
@@ -77,23 +119,88 @@ color: var(--secondary-text-colour);
 /*End of Nav*/
 
 /*Top div*/
-.top-img {
+.top {
     width: 100%;
-    overflow: hidden;
+}
+.top-img {
+    width: inherit;
+    overflow: hidden;   
+    height: inherit;
 }
 
-.top-txt-div {
+.test {
     position: absolute;
-    justify-self: center;
+    justify-items: center;
+    width: inherit;
+    top: 15%;
+}
+.test > div, h2, h4 {
+    background-color: #d90540;
+    color: var(--secondary-text-colour);
+    padding: 5px;
+}
+
+.test div {
+    width: 13%;
+}
+.top-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 /*End of Top div*/
 
 /*Mid div*/
+.mid {
+    justify-items: center;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    height: 400px;
+}
+
+.flex-row > div {
+    background-color: #eeeeee;
+    width: 200px;
+    height: 150px;
+    margin-left: 20px;
+}
+
+.flex-row p {
+    background-color: red;
+}
+
+.flex-row img {
+    object-fit: contain;
+    width: 100%;
+}
 
 /*End of Mid div*/
 
 /*Under div*/
+.udr {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+.fa {
+    background-color: blue;
+    justify-self: left;
+    width: 50%;
+}
+
+.fs {
+    background-color: yellow;
+    justify-self: right;
+    width: 50%;
+}
+
 
 /*End of Under div*/
 
@@ -102,5 +209,28 @@ color: var(--secondary-text-colour);
 /*End of Bottom div*/
 
 /*End div*/
+.end h3 {
+    color: var(--secondary-green);
+    justify-self: center;
+    padding-top: 2%;
+}
 
+.end img {
+    width: 100px;
+    object-fit: contain;
+    height: 100px;
+}
+
+.flex1 {
+    justify-self: center;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.img-con-end {
+}
 /*End of End div*/
