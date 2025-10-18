@@ -251,41 +251,34 @@ h4 {
   width: 50%;
 }
 
-.fa > div,
-.fs > div {
+.program-columns > div {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
 }
 
-.fa > div div:nth-child(2),
-.fs > div div:nth-child(2) {
+.program-columns  > div div:nth-child(2) {
   flex: 1;
   padding: 12px;
 }
 
-.fa > div:nth-of-type(1n) > .circle,
-.fs > div:nth-of-type(1n) > .circle {
+.program-columns > div:nth-of-type(1n) > .circle {
   background-color: var(--primary-red);
 }
 
-.fa > div:nth-of-type(2n) > .circle,
-.fs > div:nth-of-type(2n) > .circle {
+.program-columns  > div:nth-of-type(2n) > .circle {
   background-color: var(--primary-yellow);
 }
 
-.fa > div:nth-of-type(3n) > .circle,
-.fs > div:nth-of-type(3n) > .circle {
+.program-columns  > div:nth-of-type(3n) > .circle {
   background-color: var(--secondary-yellow);
 }
 
-.fa > div:nth-of-type(4n) > .circle,
-.fs > div:nth-of-type(4n) > .circle {
+.program-columns  > div:nth-of-type(4n) > .circle {
   background-color: var(--primary-green-menu);
 }
 
-.fa > div:nth-of-type(5n) > .circle,
-.fs > div:nth-of-type(5n) > .circle {
+.program-columns  > div:nth-of-type(5n) > .circle {
   background-color: var(--secondary-red);
 }
 
