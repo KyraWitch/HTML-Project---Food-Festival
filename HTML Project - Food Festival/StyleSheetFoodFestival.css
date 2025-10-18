@@ -2,202 +2,308 @@
 
 /*Colour vars*/
 :root {
-/*Primary colours*/
---primary-bg-colour: White;
---primary-red: #d90540;
---primary-dark-gray: #333333;
---primary-txt-colour: #7e7e7e;
---primary-green-menu: #97c004;
---primary-yellow: #f3cc02;
+  /*Primary colours*/
+  --primary-bg-colour: White;
+  --primary-red: #d90540;
+  --primary-dark-gray: #333333;
+  --primary-txt-colour: #7e7e7e;
+  --primary-green-menu: #97c004;
+  --primary-yellow: #f3cc02;
 
-/*Secondary colours*/
---secondary-text-colour: White;
---secondary-yellow: #f4a105;
---secondary-red: #f43002;
---secondary-green: #799a03;
---secondary-bg-colour: #eeeeee;
+  /*Secondary colours*/
+  --secondary-text-colour: White;
+  --secondary-yellow: #f4a105;
+  --secondary-red: #f43002;
+  --secondary-green: #799a03;
+  --secondary-bg-colour: #eeeeee;
 }
 /*End of Colour vars*/
 
 /*Global*/
-*{
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*Global classes*/
 
 /*End of global classes*/
 
+/*Txt global*/
+h2 {
+  font-size: 4rem;
+}
 
-    /*Txt global*/
-    h2 {
-        font-size: 4rem;
-    }
+h3 {
+  font-size: 3rem;
+}
 
-    h3 {
-        font-size: 3rem;
-    }
+h4 {
+  font-size: 2rem;
+}
 
-    h4 {
-        font-size: 2rem;
-    }
+h5 {
+  font-size: 1 rem;
+}
 
-    h5 {    
-        font-size: 1 rem;
-    }
+h6 {
+  font-size: 0.5 rem;
+}
 
-    h6 {
-        font-size: 0.5 rem;
-    }
-
-    p {
-
-    }
-    /*End of Txt Global*/
+p {
+}
+/*End of Txt Global*/
 
 /*End of Global*/
 
 /*testing*/
-.top, .mid, .udr, .bot, .end {
-    width: 100%;
-    height: 600px;
-    justify-self: center;
+.top,
+.mid,
+.udr,
+.bot,
+.end {
+  width: 100%;
+  height: 600px;
+  justify-self: center;
 }
 .top {
-    background-color: var(--primary-bg-colour);
+  background-color: var(--primary-bg-colour);
 }
 .mid {
-    background-color: var(--secondary-bg-colour);
+  background-color: var(--secondary-bg-colour);
 }
 .udr {
-    background-color: var(--primary-bg-colour);
+  background-color: var(--primary-bg-colour);
 }
 .bot {
-    background-color: var(--primary-green-menu);
+  background-color: var(--primary-green-menu);
 }
 .end {
-    background-color: var(--primary-dark-gray);
+  background-color: var(--primary-dark-gray);
 }
 
-
-
-
 /*Nav*/
-.nav-bar, .nav-bar nav, .nav-bar ul, .nav-bar li {
-    width: 100%;
-    height: 50px;
-    line-height: 50px;
-    text-align: center;
+.nav-bar,
+.nav-bar nav,
+.nav-bar ul,
+.nav-bar li {
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
 }
 
 .nav-bar ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.nav-bar ul > li, a {
-    list-style: none;
-    justify-self: center;
-    width: 200px;
-    text-decoration: none;
-    height: 100%;
-    display: block;
+.nav-bar ul > li,
+a {
+  list-style: none;
+  justify-self: center;
+  width: 200px;
+  text-decoration: none;
+  height: 100%;
+  display: block;
+  color: var(--primary-dark-gray);
+  font-weight: bold;
 }
 
 li a:hover {
-background-color: var(--primary-green-menu);
-color: var(--secondary-text-colour);
+  background-color: var(--primary-green-menu);
+  color: var(--secondary-text-colour);
 }
 
 /*End of Nav*/
 
 /*Top div*/
 .top {
-    width: 100%;
+  width: 100%;
 }
 .top-img {
-    width: inherit;
-    overflow: hidden;   
-    height: inherit;
+  width: inherit;
+  overflow: hidden;
+  height: inherit;
 }
 
 .test {
-    position: absolute;
-    justify-items: center;
-    width: inherit;
-    top: 15%;
+  position: absolute;
+  justify-items: center;
+  width: inherit;
+  top: 15%;
 }
-.test > div, h2, h4 {
-    background-color: #d90540;
-    color: var(--secondary-text-colour);
-    padding: 5px;
+.test > div,
+h2,
+h4 {
+  background-color: #d90540;
+  color: var(--secondary-text-colour);
+  padding: 5px;
 }
 
 .test div {
-    width: 13%;
+  width: 13%;
 }
 .top-logo {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 /*End of Top div*/
 
 /*Mid div*/
 .mid {
-    justify-items: center;
+  justify-items: center;
+  padding-top: 30px;
+  background-color: var(--secondary-bg-colour);
 }
 .flex-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    height: 400px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  height: 400px;
+  padding-top: 20px;
+  width: 50%;
+  flex-wrap: wrap;
 }
 
 .flex-row > div {
-    background-color: #eeeeee;
-    width: 200px;
-    height: 150px;
-    margin-left: 20px;
+  width: 25%;
+  background-color: white;
+  width: 200px;
+  height: fit-content;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.flex-row > div:nth-child(1n) > p:first-child {
+  background-color: var(--primary-red);
+  color: white;
+}
+
+.flex-row > div:nth-child(2n) > p:first-child {
+  background-color: var(--primary-yellow);
+  color: white;
+}
+
+.flex-row > div:nth-child(3n) > p:first-child {
+  background-color: var(--secondary-yellow);
+  color: white;
+}
+
+.flex-row > div:nth-child(4n) > p:first-child {
+  background-color: var(--primary-green-menu);
+  color: white;
+}
+
+.flex-row > div:nth-child(5n) > p:first-child {
+  background-color: var(--secondary-red);
+  color: white;
+}
+
+.flex-row > div p:nth-child(3) {
+  margin: 10px;
+  font-weight: bold;
+  margin-bottom: -10px;
+}
+
+.flex-row > div p:nth-child(1) {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0px;
+  padding: 10px;
 }
 
 .flex-row p {
-    background-color: red;
+  margin: 10px;
 }
 
 .flex-row img {
-    object-fit: contain;
-    width: 100%;
+  object-fit: contain;
+  width: 100%;
 }
 
 /*End of Mid div*/
 
 /*Under div*/
 .udr {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 
 .fa {
-    background-color: blue;
-    justify-self: left;
-    width: 50%;
+  background-color: blue;
+  justify-self: left;
+  width: 50%;
 }
 
 .fs {
-    background-color: yellow;
-    justify-self: right;
-    width: 50%;
+  background-color: yellow;
+  justify-self: right;
+  width: 50%;
 }
 
+.fa > div,
+.fs > div {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+.fa > div div:nth-child(2),
+.fs > div div:nth-child(2) {
+  flex: 1;
+  padding: 12px;
+}
+
+.fa > div:nth-of-type(1n) > .circle,
+.fs > div:nth-of-type(1n) > .circle {
+  background-color: var(--primary-red);
+}
+
+.fa > div:nth-of-type(2n) > .circle,
+.fs > div:nth-of-type(2n) > .circle {
+  background-color: var(--primary-yellow);
+}
+
+.fa > div:nth-of-type(3n) > .circle,
+.fs > div:nth-of-type(3n) > .circle {
+  background-color: var(--secondary-yellow);
+}
+
+.fa > div:nth-of-type(4n) > .circle,
+.fs > div:nth-of-type(4n) > .circle {
+  background-color: var(--primary-green-menu);
+}
+
+.fa > div:nth-of-type(5n) > .circle,
+.fs > div:nth-of-type(5n) > .circle {
+  background-color: var(--secondary-red);
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle h3 {
+  color: white;
+  font-weight: normal;
+  font-size: 2rem;
+  margin: 0;
+}
 
 /*End of Under div*/
 
@@ -207,25 +313,25 @@ color: var(--secondary-text-colour);
 
 /*End div*/
 .end h3 {
-    color: var(--secondary-green);
-    justify-self: center;
-    padding-top: 2%;
+  color: var(--secondary-green);
+  justify-self: center;
+  padding-top: 2%;
 }
 
 .end img {
-    width: 100px;
-    object-fit: contain;
-    height: 100px;
+  width: 100px;
+  object-fit: contain;
+  height: 100px;
 }
 
 .flex1 {
-    justify-self: center;
-    width: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: space-between;
-    margin-top: 5%;
+  justify-self: center;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+  margin-top: 5%;
 }
 
 .img-con-end {
