@@ -365,6 +365,8 @@ h4 {
     padding-bottom: 30px;
     justify-self: center;
 
+
+    /*Vil ønske at knappen ikke havde den edge den har*/
     &>button {
       border-radius: 30%;
       height: 70px;
